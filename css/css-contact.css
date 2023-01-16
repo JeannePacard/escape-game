@@ -1,0 +1,162 @@
+.hero-hashtag {
+  opacity: 20%;
+  font-size: 14vw;
+  font-family: "Poppins";
+  font-weight: 700;
+  margin-top: 1.4%;
+}
+
+.hero-fond {
+  display: flex;
+  width: 47%;
+  padding-left: 6%;
+}
+
+.hero-title {
+  margin-left: -78%;
+}
+
+.hero-title {
+  font-family: "Noto Serif", serif;
+  letter-spacing: 1vw;
+  font-size: 5vw;
+}
+
+.hero-txt {
+  width: 53%;
+  padding-top: 4%;
+}
+.hero-img {
+  height: 20vw;
+  align-items: start;
+}
+
+.hero-top {
+  display: flex;
+  margin-top: 7%;
+}
+
+.infos-contact a {
+  text-decoration: none;
+  color: white;
+}
+
+.infos-contact a:hover {
+  text-decoration: underline;
+}
+
+.boite-infos-contact {
+  /*border: 2px dashed red;*/
+  margin-top: 8%;
+  margin-bottom: 8%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.titre-info,
+.titre-acces,
+.titre-rs {
+  font-size: 3vw;
+  font-family: "Poppins";
+  font-weight: 100;
+}
+.infos-contact,
+.infos-acces {
+  font-size: 1.2vw;
+  font-family: "Poppins";
+  font-weight: 300;
+}
+
+.info-gauche {
+  text-align: right;
+  border-right: 0.3px solid white;
+  margin-left: auto;
+  padding-right: 4%;
+  line-height: 220%;
+}
+
+.info-droite {
+  border-left: 0.3px solid white;
+  margin-right: auto;
+  padding-left: 4%;
+  line-height: 220%;
+}
+
+.boite-acces {
+  margin-top: 8%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 5vh;
+  text-align: center;
+}
+.infos-acces {
+  margin-top: 4%vw;
+  line-height: 200%;
+}
+
+.boite-rs {
+  margin-top: 10vw;
+  margin-bottom: 6vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icones-rs {
+  display: flex;
+  flex-direction: row;
+}
+.img-logo-rs {
+  width: 3.5vw;
+  margin: 3vw;
+}
+
+@media (max-width: 800px) {
+  .titre-info,
+  .titre-acces,
+  .titre-rs {
+    font-size: 5vw;
+  }
+  .infos-contact,
+  .infos-acces {
+    font-size: 2vw;
+  }
+  .info-gauche {
+    padding-right: 7%;
+  }
+  .info-droite {
+    padding-left: 7%;
+  }
+}
+
+@media (max-width: 400px) {
+  .titre-info,
+  .titre-acces,
+  .titre-rs {
+    font-size: 6vw;
+  }
+  .infos-contact,
+  .infos-acces {
+    font-size: 2vw;
+  }
+  .info-gauche {
+    padding-right: 7%;
+  }
+  .info-droite {
+    padding-left: 7%;
+  }
+  .info-gauche {
+    padding-right: 6%;
+    line-height: 100%;
+  }
+
+  .info-droite {
+    padding-left: 6%;
+    line-height: 100%;
+  }
+}

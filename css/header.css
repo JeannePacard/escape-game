@@ -1,0 +1,99 @@
+html {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.logo-img {
+  width: 100%;
+  height: 100%;
+}
+.logo {
+  width: 20%;
+  height: 100%;
+  margin: auto;
+}
+
+.all {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  margin-top: 1%;
+}
+.header {
+  display: none;
+  position: fixed;
+  margin-top: -2%;
+  height: 103%;
+  width: 100%;
+  z-index: 50;
+  background-color: black;
+}
+
+.header-links li {
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+}
+.header-links li a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+  margin-left: 10%;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+.header-links li a:hover {
+  font-weight: 600;
+}
+.header-links-a {
+  font-size: 50px;
+}
+.red {
+  color: #ab4444;
+}
+.margin-top {
+  display: none;
+}
+.menu {
+  z-index: 51;
+  display: block;
+  width: 4%;
+  height: 4%;
+  /*margin-left: 90%;*/
+  cursor: pointer;
+}
+.openmenu {
+  display: block;
+}
+
+/* Tablette */
+@media (max-width: 800px) {
+  .header-links li a {
+    font-size: 30px;
+    margin: auto;
+    margin-top: 5%;
+  }
+}
+/* Mobile */
+
+@media (max-width: 400px) {
+  .header-links li a {
+    font-size: 20px;
+    margin-top: 8%;
+  }
+  .menu {
+    width: 10%;
+    margin-right: 2%;
+  }
+  .logo-img {
+    width: 100%;
+    height: 100%;
+  }
+  .logo {
+    width: 30vw;
+    margin-left: 37vw;
+  }
+}

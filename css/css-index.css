@@ -1,0 +1,128 @@
+.hero-content {
+    display: flex;
+    margin-bottom: 8vw;
+}
+
+.trailer {
+    width: 67vw;
+    height: 42vw;
+}
+
+.hero-content-title {
+    letter-spacing: 0.4vw;
+    font-size: 3vw;
+    font-family: 'Noto serif', serif;
+    margin-left: -37.5vw;
+    line-height: 5vw;
+    z-index: 5
+}
+
+.hero-content-subtitle {
+    margin-bottom: 3vw;
+    font-size: 1.563vw;
+    margin-left: -38vw;
+    margin-bottom: 0vw;
+    font-family: 'Noto Serif', serif;
+}
+
+.hero-content-txt {
+    margin-left: -43.5vw;
+    margin-top: 10%;
+    font-size: 1.5vw;
+    font-family: 'Poppins';
+    z-index: 5;
+}
+.hero-title {
+    text-align: center;
+    margin-left: -100%;
+    margin-top: 10vw;
+    margin-bottom: 20vw;
+    text-transform: uppercase;
+}
+.hero-titlesmall {
+    text-align: left;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-family: 'Noto Serif', serif;
+    letter-spacing: 1vw;
+    font-size: 3vw;
+}
+.hero-subtitle {
+    margin-left: 80vw;
+    margin-top: -7vw;
+    margin-bottom: 10vw !important;
+}
+.hero-hashtag {
+    font-size: 7vw;
+    margin-top: 2vw;
+    margin-left: 3vw;
+    font-family: "Poppins";
+    font-weight: 700;
+}
+.sang {
+    margin-left: -10vw ;
+    margin-top: -1vw;
+}
+.sang2 {
+    margin-top: -2vw;
+    margin-left: -10vw;
+}
+.hero-background-escape {
+    margin-top: -30vw;
+    margin-left: -10vw;
+    width: 60vw;
+    z-index: -5;
+    height: auto;
+    position: relative;
+}
+.discovery {
+    margin-left: -25vw !important;
+}
+a {
+    color:inherit;
+    text-decoration: none;
+}
+.hero-video-youtube {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img-title {
+    height: 30vw;
+    align-items: start;
+    padding-top: 5%;
+    margin-left: -10vw;
+    margin-top: 3vw;
+}
+
+.hero-hashtag-title {
+    font-size: 14vw;
+    opacity: 20%;
+    font-family: 'Poppins';
+    font-weight: 700;
+    margin-top: 9vw;
+    margin-left: 22vw;
+}
+
+/* Tablette */
+
+@media (max-width: 800px) {
+    .hero-content {
+        margin-left: 30vw;
+    }
+    .mobile-txt {
+        margin-left: 15vw;
+    }
+    .mobile-desc {
+        margin-left: -80vw;
+        margin-top: 25vw;
+        font-size: 2vw;
+        text-align: center;
+    }
+    .hero-background-escape {
+        margin-left: -53vw;
+        margin-bottom: 10vw;
+        width: 50vw;
+    }
+}

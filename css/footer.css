@@ -1,0 +1,167 @@
+/* General */
+
+footer {
+  font-size: 1.2vw;
+  margin-top: 4%;
+}
+
+.footer-line {
+  display: block;
+  content: "";
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
+  background-color: #f4f2e6;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container-left-part,
+.container-middle-part,
+.container-right-part {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Partie de gauche */
+
+.container-left-part {
+  width: 25%;
+}
+
+.footer-logo {
+  margin-top: 15%;
+}
+
+.mentions-legales {
+  color: white;
+  text-decoration: none;
+  margin-top: 35%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.mentions-legales:hover {
+  text-decoration: underline;
+}
+
+/* partie du milieu */
+
+.menu-title-middle {
+  font-size: 3.2vw;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.link-footer {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-top: 20px;
+}
+
+/* partie de droite */
+
+.menu-title-right {
+  font-size: 3.2vw;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.container-right-part {
+  width: 20%;
+}
+
+.instagram,
+.facebook,
+.twitter {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.social-networks-link {
+  width: 60px;
+}
+
+.social-networks-img {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.social-networks-name {
+  margin-left: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+  text-decoration: none;
+}
+
+/* Tablette */
+
+@media (max-width: 800px) {
+  .menu-title-middle,
+  .menu-title-right {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .social-networks-link {
+    width: 45px;
+  }
+  .link-footer {
+    letter-spacing: 3px;
+    margin-top: 10px;
+  }
+  .mentions-legales {
+    vertical-align: bottom;
+    letter-spacing: 5px;
+  }
+  .footer-line {
+    display: none;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 400px) {
+  .container {
+    flex-direction: column;
+  }
+  .container-left-part,
+  .container-middle-part,
+  .container-right-part,
+  .social-networks {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .link-footer {
+    letter-spacing: 2px;
+    margin-top: 5px;
+  }
+  .mentions-legales {
+    letter-spacing: 2px;
+  }
+  .menu-title-right,
+  .menu-title-middle {
+    font-size: 15px;
+  }
+  .container-right-part {
+    width: 100%;
+  }
+  .social-networks-img {
+    width: 30%;
+  }
+  .footer-line {
+    display: none;
+  }
+}

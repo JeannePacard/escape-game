@@ -1,0 +1,141 @@
+.body {
+    width: 100%;
+    height: 100%;
+}
+
+.titre {
+    width: 100%;
+    height: 50%;
+}   
+
+.hero {
+    margin-top: 5%;
+}
+
+
+
+.hero-content {
+    /*border: 2px dashed blue;*/
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    font-family: Poppins;
+    font-weight: 300;
+    flex-flow: row wrap;
+    margin-top: 4vw;
+    
+}
+
+.autres-missions {
+    width: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2%;
+}
+.autres-missions a {
+    text-decoration: none;
+    color: white;
+}
+.autres-missions a:hover {
+    color: rgb(152, 152, 152);
+}
+
+.box-jours {
+    /*border: 2px dashed red;*/
+    width: 12%;
+    height: 100%;
+    border-right: 0.5px solid rgb(221, 221, 221);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0 2% 0;
+}
+.titre {
+    text-align: center;
+    width: 100%;
+}
+.titre-missions {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40%;
+}
+
+.horraires {
+    line-height: 300%;
+}
+.horraires:hover {
+    color:rgb(102, 102, 102);
+}
+
+@media (max-width: 800px) {
+    .hero-content {
+        margin-top: 6vw;
+    }
+}
+
+
+@media (max-width: 400px) {
+    
+    .hero-content {
+        flex-direction: column;
+        width: 90%;
+    }
+    .autres-missions {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .box-titre {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .titre {
+        font-size: 4vw;
+    }
+    .titre-missions {
+        margin-bottom: 10%;
+    }
+    .box-missions {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid grey;
+        width: 100%;
+    }
+    .mission {
+        margin: auto;
+        padding: 3%;
+        font-size: 2.5vw;
+    }
+    .mission:hover {
+        background-color: rgb(29, 29, 29);
+    }
+
+    .box-jours {
+        border: 1px solid white;
+        flex-direction: column;
+        width: 100%;
+    }
+    .box-horraires {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        /*border: 2px dashed red;*/
+    }
+    .horraires {
+        margin: auto;
+        font-size: 2.5vw;
+        
+    }
+}

@@ -1,0 +1,56 @@
+.add-margin {
+  margin-top: 4%;
+}
+
+.faq-font-size {
+  font-size: 4.5vw;
+}
+
+.faq {
+  width: 80%;
+  margin: -5% auto 5% auto;
+}
+
+.question {
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.first-question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.first-question p {
+  font-size: 1.6vw;
+}
+
+.icones img {
+  width: 80%;
+}
+
+.icone-less {
+  display: none;
+}
+
+.answer {
+  display: none;
+  padding: 2% 0% 0% 2%;
+}
+
+.block {
+  display: block;
+}
+
+.remove {
+  display: none;
+}
+
+/* Tablette */
+@media (max-width: 800px) {
+}
+/* Mobile */
+
+@media (max-width: 400px) {
+}

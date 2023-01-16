@@ -1,0 +1,223 @@
+main {
+  width: 85%;
+  margin: 5% auto;
+}
+.mission1 {
+  background: no-repeat url(../img/corridor.png);
+  background-size: 65%;
+  background-position: right 5% top 80%;
+  margin: 10% 0 15% 0;
+}
+.mission2 {
+  background: no-repeat url(../img/asylum.png);
+  background-size: 65%;
+  background-position: right 5% top 80%;
+  margin: 10% 0 15% 0;
+}
+.mission3 {
+  background: no-repeat url(../img/manoir.png);
+  background-size: 65%;
+  background-position: right 5% top 80%;
+  margin: 10% 0 15% 0;
+}
+.mission4 {
+  background: no-repeat url(../img/chessboard.png);
+  background-size: 65%;
+  background-position: right 5% top 80%;
+  margin: 10% 0 15% 0;
+}
+.mission5 {
+  background: no-repeat url(../img/mission4.png);
+  background-size: 65%;
+  background-position: right 5% top 80%;
+  margin: 10% 0 15% 0;
+}
+
+.box-nom-mission {
+  width: 100%;
+}
+.box-numero-mission {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: -5%;
+}
+.hashtag {
+  opacity: 20%;
+  font-size: 8vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+.numero-mission {
+  text-transform: uppercase;
+  font-family: "Noto Serif", serif;
+  font-weight: bold;
+  letter-spacing: 0.2ch;
+  font-size: 2vw;
+  margin-left: -4%;
+}
+
+.box-titre-mission {
+  width: 40%;
+}
+.nom-mission {
+  font-family: "Noto Serif", serif;
+  font-weight: bold;
+  letter-spacing: 0.4ch;
+  line-height: 5.5vw;
+  font-size: 4vw;
+  margin-left: 12%;
+  margin-top: -48%;
+  height: 15vw;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+}
+
+.box-txt-mission {
+  width: 50%;
+}
+
+.img-sang {
+  width: 90%;
+}
+
+.txt-mission {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8vw;
+  line-height: 2vw;
+  max-width: 60ch;
+}
+
+.box-joueurs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 42%;
+  padding-right: 2%;
+  margin: 2% 0;
+}
+
+.nombre-joueurs {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 100%;
+  margin: 2% 0;
+}
+
+.nombre-joueurs p {
+  margin: 1.2%;
+  font-size: 1.5vw;
+}
+
+.box-ronds {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin: 2% 0;
+}
+
+.rond {
+  border-radius: 50%;
+  width: 1.2vw;
+  height: 1.2vw;
+  margin: 0.5%;
+}
+
+.box-categorie p {
+  font-size: 1.5vw;
+  margin: 2% 0;
+}
+
+.box-savoir-plus {
+  width: 20vw;
+  padding: 1.2vw;
+}
+.box-savoir-plus a {
+  border: 2px solid white;
+  text-transform: uppercase;
+  width: 80%;
+  font-size: 1.2vw;
+  text-align: center;
+  padding: 1.2vw;
+  text-decoration: none;
+  color: white;
+  margin-left: 2vw;
+}
+.box-savoir-plus a:hover {
+  background-color: rgb(10, 10, 10);
+}
+
+@media (max-width: 420px) {
+  .box-savoir-plus {
+    width: 100%;
+    padding-top: 50vw;
+    height: 10vw;
+  }
+  .box-savoir-plus a {
+    border: 2px solid white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 10vw;
+    margin: auto;
+    font-size: 4vw;
+    text-align: center;
+    padding: 1.2vw;
+    text-decoration: none;
+    color: white;
+  }
+
+  .txt-mission {
+    font-size: 2vw;
+    line-height: 4vw;
+  }
+  .box-joueurs {
+    width: 90%;
+  }
+  .nombre-joueurs p {
+    font-size: 3vw;
+  }
+  .rond {
+    width: 3vw;
+    height: 3vw;
+  }
+  .box-categorie p {
+    font-size: 3vw;
+  }
+
+  .mission1 {
+    background: no-repeat url(../img/corridor.png);
+    background-size: 80%;
+    background-position: center top 80%;
+    margin: 10% 0 15% 0;
+  }
+  .mission2 {
+    background: no-repeat url(../img/asylum.png);
+    background-size: 65%;
+    background-position: right 5% top 80%;
+    margin: 10% 0 15% 0;
+  }
+  .mission3 {
+    background: no-repeat url(../img/manoir.png);
+    background-size: 65%;
+    background-position: right 5% top 80%;
+    margin: 10% 0 15% 0;
+  }
+  .mission4 {
+    background: no-repeat url(../img/chessboard.png);
+    background-size: 65%;
+    background-position: right 5% top 80%;
+    margin: 10% 0 15% 0;
+  }
+  .mission5 {
+    background: no-repeat url(../img/mission4.png);
+    background-size: 65%;
+    background-position: right 5% top 80%;
+    margin: 10% 0 15% 0;
+  }
+}

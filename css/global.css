@@ -1,0 +1,41 @@
+/* GLOBAL */
+
+p,
+a {
+  font-size: 20px;
+
+  max-width: 60ch;
+  line-height: 1.5;
+}
+
+/* Tablette */
+
+@media (max-width: 800px) {
+  p,
+  a {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1f1f1f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f3f;
+}
